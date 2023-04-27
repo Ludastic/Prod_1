@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/subtask_card"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="180dp"
+    android:layout_marginVertical="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/blank_card_subtask">
+
+
+    <TextView android:id="@+id/subtask_name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="10dp"
+        tools:text="ХУЙХУЙХУЙХУХЙУХЙ"
+        tools:textColor="@color/black"
+        tools:textSize="25sp" />
+
+    <TextView android:id="@+id/subtask_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="10dp"
+        tools:textColor="@color/black"
+        tools:text="ФЫФЫВФЫВФВЫФЫВВФЫФВЫВФЫФВЫФЫВФЫВФЫВфывфыфывффыв"
+        tools:textSize="25sp" />
+
+</LinearLayout>
